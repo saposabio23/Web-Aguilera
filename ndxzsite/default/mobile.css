@@ -1,0 +1,225 @@
+@media all and (min-width: 751px) {
+.rotation{display:none !important;}
+.back{display:none;}
+}
+
+@media screen and (max-width: 750px) and (orientation:portrait) {
+.format-slideshow #textspace{display: none !important;}
+.format-no_show .texto{display: none !important;}
+.format-no_show .credits{display: none !important;}
+}
+
+@media screen and (max-width: 750px) and (orientation:landscape) {
+.format-slideshow #slideshow-wrapper {display: none !important;}
+.format-slideshow #slideshow img {display: none !important;}
+.format-slideshow #slideshow-nav {display: none !important;}
+.format-slideshow #index {display: none !important;}
+.format-no_show #index {display: none !important;}
+.format-no_show .contact{display: none !important;}
+.rotation{display:none !important;}
+.back{display:none !important;}
+}
+
+
+
+@media all and (max-width: 750px) {
+.bottomcache, .line {display:none;}
+
+body{
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.top a {
+  font-size: 1.5rem;
+}
+
+#exhibit{
+  height: calc(var(--vh, 1vh) * 100) !important;
+  top: 0;
+  position: absolute;
+  width: 100vw;}
+
+.top{
+  padding-top: 0!important;
+  position: fixed;
+  width: calc(100% - 40px);
+  top: 20px;
+  z-index: 9999;
+  left: 20px;
+  text-align: left;
+}
+
+#section_title_2 {
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 15px;
+  z-index: 9999;
+  left: 20px;
+  text-decoration: underline;
+}
+
+#section_title_4 {
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 15px;
+  z-index: 9999;
+  right: 20px;
+  text-decoration: underline;
+}
+
+#index ul.section span.section_title, #index ul.section span.section_title a{
+text-decoration: none !important;}
+
+.titulo-proyecto{
+}
+
+
+/* HOME */
+.format-random_image #exhibit{
+ height: calc(var(--vh, 1vh) * 100) !important;
+ top: 0!important;
+}
+
+
+/* GALERIA */
+.format-visual_index #img-container {
+ position: relative;
+ height: calc(var(--vh, 1vh) * 100) !important;
+ top: 0px;
+ padding-right: 60px;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+.format-visual_index #img-container .picture_holder {
+  padding: 0;
+}
+
+
+
+/* PROYECTOS  */
+.format-slideshow #index ul.section{display: none !important;}
+#slideshow-nav a:link {text-decoration: none!important;}
+#slideshow-nav a:hover {text-decoration: none!important;}
+
+.rotation {
+ width: 23px;
+ position: fixed;
+ right: 20px;
+ bottom: 15px;
+z-index: 999;
+}
+
+.back {
+ position: fixed;
+ top: 20px;
+ z-index: 9999;
+ right: 20px;
+}
+
+.logo {
+  text-decoration: none !important;
+  font-size: 1.5rem;
+}
+
+#textspace {
+  width: calc(100vw - 100px) !important;
+  max-width: 100vw !important;
+  top: 0 !important;
+  padding: 0px !important;
+  height: calc(var(--vh, 1vh) * 100 - 50px);
+  margin: 50px !important;
+position: absolute;  
+}
+
+.bottomcache{
+width: 100vw;
+}
+
+
+#slideshow-wrapper {
+margin: 40px !important;
+height: calc(var(--vh, 1vh) * 100 - 80px);
+width: calc(100vw - 80px);
+left: 0;
+}
+
+#slideshow img {
+  max-width: calc(100vw - 80px);
+  max-height: calc(var(--vh, 1vh) * 80 - 80px);
+  height: calc(var(--vh, 1vh) * 80 - 80px);
+  width: calc(100vw - 80px);
+object-fit: contain;
+transform: translate(-50%, 0%);
+}
+
+
+#slideshow-nav{
+ z-index: 9999;
+ text-align: left;
+ position: fixed;
+ bottom: 15px;
+ margin-bottom: 0px!important;
+ left: 20px;
+ transform: none;
+ text-align: center;
+
+}
+
+
+
+
+
+
+
+/* PAGINA INFO */
+.texto{
+    width: calc(100vw - 100px) !important;
+    max-width: 100vw !important;
+    top: 0 !important;
+    padding: 0px !important;
+    left: 0;
+    height: calc(var(--vh, 1vh) * 100 - 50px);
+    margin: 50px !important;
+    position: absolute;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    word-spacing: 5px !important;
+    overflow-y: scroll !important;
+    display: block;
+}
+
+.contenedorcontact {
+  text-align: center;
+  width: 100vw;
+  position: absolute !important;
+  height: calc(var(--vh, 1vh) * 100) !important;
+  left: 0 !important;
+  top: 0;
+  display: grid;
+  max-width: 100vw;
+  margin: 0 !important;
+}
+
+.contenedortexto {
+  text-align: left;
+  width: 100vw;
+  position: absolute !important;
+  height: calc(var(--vh, 1vh) * 100) !important;
+  left: 0 !important;
+  top: 0;
+  display: grid;
+  max-width: 100vw;
+  margin: 0 !important;
+}
+
+.format-no_show .rotation {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.format-no_show #section_title_4 {
+  display: none!important}
